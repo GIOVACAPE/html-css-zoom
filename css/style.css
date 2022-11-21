@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding-top:60px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+
+}
+.debug {
+    border: 2px solid rgb(5, 5, 5);
+}
+.flex{
+    display: flex;
+    justify-content: flex-end;
+    background-color: black;
+  
+}
+.flexlist{
+    display: flex;
+    justify-content: space-between;
+}
+body{
+    background-color: black;
+}
+main{
+    height:calc(100vh - 60px);
+  background-color:rgb(0, 0, 0);
+}
+header{
+    background-color: rgb(0, 0, 0);
+}
+
+.top{
+    z-index:1000;
+    justify-content: flex-end;
+    position: fixed;
+    left: 0;
+    right: 0;
+    background-color: rgb(0, 0, 0);
+    height:60px;
+    width:100%;
+    color: white;
+    font-family:'Open Sans', sans-serif;
+    font-size: 15px;
+}
+.btn2{
+    padding-top: 10px;
+}
+.btn1{
+    color:white;
+    margin-right:10px;
+    font-size:15px;
+    width:10%;
+    display:flex;
+    vertical-align: middle;
+    padding-top: 10px;
+}
+.box{
+    flex-basis: calc(100%/7);
+    min-width: 100px;
+    gap:10px;
+}
+.footerflex{
+    display: flex;
+    justify-content: space-between;
+    height:80px;
+    background-color:#0e0b0b;
+    position: absolute;
+    width: 100%;
+    vertical-align: middle;
+}
+.imput {
+    color: white;
+    margin-right:10px;
+    font-size:15px;
+    width:16%;
+    display:flex;
+    padding-top: 10px;
+}
+.fa-solid, .fas{
+   margin-right:40px;
+   font-size: 20px;
+   
+}
+.mute{
+    font-family:'Open Sans', sans-serif;
+    font-size: 15px;
+}
+.video{
+    font-family:'Open Sans', sans-serif;
+    font-size: 15px; 
+    padding-top: 5px;  
+}
+.options{
+    color: white;
+    margin-right:10px;
+    font-size:15px;
+    width:50%; 
+    padding-top: 10px; 
+}
+.optionlist {
+    list-style-type:none;
+    height: 40px;
+    font-family:'Open Sans', sans-serif;
+    font-size:15px;
+}
+.output{
+    display: flex;
+    color: red;
+    font-size: 20px;
+    width:20%;
+    background-color:#524d4d;
+    text-align: center;
+    font-family:'Open Sans', sans-serif;
+    justify-content: center; 
+    padding-top: 10px;  
+}
+
+
+
+footer{
+    height: 40px;
+    background-color: grey;
+}
+
+#green{
+    color: green;
+}
